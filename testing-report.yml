@@ -60,7 +60,7 @@
  status: fail
 
 - summary: |
-    Проверка фунциональности кнопки "Магазин Hexlet"
+    Проверка фунциональности кнопки "Hexlet Store"
  status: fail
 
 - summary: |
