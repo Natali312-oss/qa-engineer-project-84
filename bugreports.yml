@@ -73,9 +73,8 @@
   expected-result: |
     Вернулся весь список товаров
   actual-result: |
-    Нельзя вернуться к списку товаров кликнув кнопку "Hexlet Store" 
-    Кнопка "Hexlet Store"  не работает
-
+    Кнопка "Hexlet Store"  не работает 
+    
 - summary: |
     Нет возможности убедиться, что товар добавлен
   environment: |
