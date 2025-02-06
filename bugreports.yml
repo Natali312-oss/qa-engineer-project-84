@@ -63,32 +63,32 @@ actual-result: |
 
 - summary: |
     Нет возможности вернуться к списку товаров кликнув кнопку "Hexlet Store"
-  environment: |
+environment: |
     Google Chrome   129.0.6668.70 (Официальная сборка) (64 бит)
     ОС Windows 10 
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Открыть главную страницу интернет магазина Hexlet Store
     2. Открыть карточку 1 любого товара 
     3. Кликнуть кнопку "Hexlet Store"
-  expected-result: |
+expected-result: |
     Вернулся весь список товаров
-  actual-result: |
+actual-result: |
     Нельзя вернуться к списку товаров кликнув кнопку "Hexlet Store" 
     Кнопка "Hexlet Store"  не работает
     Ошибка изображена на видео 
 
-    - summary: |
+- summary: |
     Нет возможности убедиться, что товар добавлен, без помощи кнопки "Корзина"
-  environment: |
+environment: |
     Google Chrome   129.0.6668.70 (Официальная сборка) (64 бит)
     ОС Windows 10 
-  steps-to-reproduce: |
+steps-to-reproduce: |
     1. Открыть главную страницу интернет магазина Hexlet Store
     2. Выбрать карточку 1 любого товара 
     3. Кликнуть кнопку "В корзину"
-  expected-result: |
+expected-result: |
      Кнопка "В корзину" изменила свое название на "Добавлено" 
-  actual-result: |
+actual-result: |
     Кнопка "В корзину" не изменила свое название на "Добавлено" 
     Ошибка изображена на видео 
 
