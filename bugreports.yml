@@ -79,15 +79,15 @@
 
 - summary: |
     Нет возможности убедиться, что товар добавлен, без помощи кнопки "Корзина"
-environment: |
+  environment: |
     Google Chrome   129.0.6668.70 (Официальная сборка) (64 бит)
     ОС Windows 10 
-steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Открыть главную страницу интернет магазина Hexlet Store
     2. Выбрать карточку 1 любого товара 
     3. Кликнуть кнопку "В корзину"
-expected-result: |
+  expected-result: |
      Кнопка "В корзину" изменила свое название на "Добавлено" 
-actual-result: |
+  actual-result: |
     Кнопка "В корзину" не изменила свое название на "Добавлено" 
     Ошибка изображена на видео https://cloud.mail.ru/public/kFYi/ZwXniQfB4
