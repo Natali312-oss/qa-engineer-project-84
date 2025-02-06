@@ -1,3 +1,4 @@
+---
 test-cases:
   - summary: |
       Проверка наличия и функциональности кнопки "Очистить корзину"
@@ -10,18 +11,18 @@ test-cases:
 bugreports:
   - summary: |
       Кнопка "Очистить корзину" не работает, если для выхода из корзины использовать кнопку "Магазин"
-    environment: |
+  environment: |
       Google Chrome   129.0.6668.70 (Официальная сборка) (64 бит)
       ОС Windows 10 
-    steps-to-reproduce: |
+  steps-to-reproduce: |
     - Открыть главную страницу интернет магазина Hexlet Store
     - В корзину добавить 3 любых товара
     - кликнуть на кнопку "Корзина"
     - кликнуть кнопку "Очистить корзину"
     - кликнуть кнопку "Магазин"
     - кликнуть кнопку "Корзина" fail
-    expected-result: |
+  expected-result: |
       Корзина пустая
-    actual-result: |
+  actual-result: |
       В корзине лежат товары 
       Ошибка изображена на видео https://cloud.mail.ru/public/3Gaf/H3vaTn3cw
