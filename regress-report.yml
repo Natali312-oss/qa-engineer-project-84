@@ -2,11 +2,11 @@
 test-cases:
   - summary: |
       Проверка наличия и функциональности кнопки "Очистить корзину"
-    status: pass
+  status: pass
 
   - summary: |
       Проверка наличия и функциональности кнопки "Очистить корзину"
-    status: fail
+  status: fail
 
 bugreports:
   - summary: |
